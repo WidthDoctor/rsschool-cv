@@ -25,6 +25,9 @@ body{
     width: 75%;
     background-color: #F6F3EC;
 }
+h1{
+    margin-left: 30px;
+}
 #pan{
     position: relative;
     z-index: 2;
@@ -101,18 +104,16 @@ p{
     margin-left: 5px;
 }
 .skills_info{
-    margin-top: 50px;
+    width: 280px;
     display: flex;
     flex-direction:column;
-    justify-content: center;
-    align-items: center;
 }
 
 #skills {
-    padding-left: 100px;
+    padding-left: 50px;
 }
 #li_skill{
-    width: 240px;
+    width: 230px;
     text-align: end;
     color: #D8C30E;
 
@@ -121,7 +122,6 @@ p{
     margin-top: 25px;
     color:black;
     width: 180px;
-
 }
 #Title_middle{
     margin-left: 20px;
@@ -132,4 +132,44 @@ p{
     font-size: 18px;
     line-height: 24px;
     font-variant: small-caps;
+}
+#experience{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-variant: small-caps;
+    width: 280px;
+}
+#title_span{
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    font-variant: small-caps;
+    background-color: #D8C30E;
+
+}
+.three_section_wrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+#language{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-variant: small-caps;
+    width: 280px;
 }
