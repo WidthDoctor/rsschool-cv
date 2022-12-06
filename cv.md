@@ -18,12 +18,12 @@ I really hope nothing happens anytime soon and I can do what I really enjoy!
 
 - HTML
 - CSS
-- FIGMA
+- FIGMA -Basics
 - VS Code
 - JavaScript Basics
 - Deepl :)
 - Adobe Photoshop
-- Git
+- Git -Basics
 
 ## <span style="color:#66b2ff">Code example</span>
 
