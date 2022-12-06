@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    margin:0;
+}
+.wrapper_general{
+    display: flex;
+    margin: 0 auto;
+    width: 1366px;
+    height: 1024px;;
+    /* background-color: #ecec3b; */
+
+}
+.two_colums{
+    width: 1366px;
+    display: flex;
+
+}
+.column_one{
+    /* display: flex; */
+
+    width: 25%;
+    background-color: #E2E3DE;
+}
+.column_two{
+    width: 75%;
+    background-color: #F6F3EC;
+}
+#pan{
+    position: relative;
+    z-index: 2;
+    width: 250px;
+    left: 50px;
+    top: 20px;
+}
+#tape{
+    position: relative;
+    display: flex;
+    z-index: 2;
+    width: 400px;
+    right: 80px;
+    bottom: 10px;
+}
+#name{
+    transform: rotate(-4deg);
+    position: relative;
+    display: flex;
+    bottom: 80px;
+    left: 10px;
+    z-index: 3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 24px;
+    font-variant: small-caps;
+}
+.contacts{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#title{
+    text-align: center;
+    width: 280px;
+    height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    font-variant: small-caps;
+    background-color: #D8C30E;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+#li_contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    list-style: none;
+    width: 240px;
+}
+p{
+    margin-left: 10px;
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-variant: small-caps;
+}
+.icon_images{
+    padding-left: 20px;
+}
+#phone_icon{
+    margin-left: 5px;
+}
+.skills_info{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills {
+    padding-left: 100px;
+}
+#li_skill{
+    width: 240px;
+    text-align: end;
+    color: #D8C30E;
+
+}
+#li_skill p{
+    margin-top: 25px;
+    color:black;
+    width: 180px;
+
+}
+#Title_middle{
+    margin-left: 20px;
+    width: 800px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    font-variant: small-caps;
+}
