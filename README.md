@@ -1,1 +1,1 @@
-https://WidthDoctor.github.io/rsschool-cv/cv
+https://WidthDoctor.github.io/rsschool-cv/
