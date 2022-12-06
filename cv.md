@@ -23,7 +23,7 @@ I really hope nothing happens anytime soon and I can do what I really enjoy!
 - JavaScript Basics
 - Deepl :)
 - Adobe Photoshop
-- Git -Basics
+- Git
 
 ## <span style="color:#66b2ff">Code example</span>
 
