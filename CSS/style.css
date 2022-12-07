@@ -10,7 +10,7 @@ body{
     /* background-color: #ecec3b; */
 
 }
-.two_colums{
+.two_columns{
     width: 1366px;
     display: flex;
 
@@ -62,7 +62,7 @@ h1{
     flex-direction:column;
     align-items: center;
 }
-#title{
+.title{
     text-align: center;
     width: 280px;
     height: 30px;
@@ -79,7 +79,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-#li_contact{
+.li_contact{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -99,8 +99,10 @@ p{
 }
 .icon_images{
     padding-left: 20px;
+    height: 30px;
 }
 #phone_icon{
+    height: 35px;
     margin-left: 5px;
 }
 .skills_info{
@@ -109,16 +111,16 @@ p{
     flex-direction:column;
 }
 
-#skills {
+.skills {
     padding-left: 50px;
 }
-#li_skill{
+.li_skill{
     width: 230px;
     text-align: end;
     color: #D8C30E;
 
 }
-#li_skill p{
+.li_skill p{
     margin-top: 25px;
     color:black;
     width: 180px;
@@ -144,7 +146,7 @@ p{
     font-variant: small-caps;
     width: 280px;
 }
-#title_span{
+.title_span{
     text-align: center;
     width: 280px;
     height: 30px;
