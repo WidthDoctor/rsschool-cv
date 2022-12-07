@@ -2,13 +2,15 @@
 body{
     margin:0;
 }
+h1{
+    margin-left: 30px;
+    margin: 0;
+}
 .wrapper_general{
     display: flex;
     margin: 0 auto;
     width: 1366px;
     height: 1024px;;
-    /* background-color: #ecec3b; */
-
 }
 .two_columns{
     width: 1366px;
@@ -24,9 +26,6 @@ body{
 .column_two{
     width: 75%;
     background-color: #F6F3EC;
-}
-h1{
-    margin-left: 30px;
 }
 #pan{
     position: relative;
@@ -113,6 +112,7 @@ p{
 
 .skills {
     padding-left: 50px;
+
 }
 .li_skill{
     width: 230px;
@@ -121,6 +121,7 @@ p{
 
 }
 .li_skill p{
+    font-size: 24px;
     margin-top: 25px;
     color:black;
     width: 180px;
@@ -128,10 +129,10 @@ p{
 #Title_middle{
     margin-left: 20px;
     width: 800px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:'Source Sans Pro', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 28px;
     line-height: 24px;
     font-variant: small-caps;
 }
@@ -174,4 +175,18 @@ p{
     line-height: 24px;
     font-variant: small-caps;
     width: 280px;
+}
+footer{
+    width: 1366px;
+    margin: 0 auto;
+    background-color: #D8C30E;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.git_icon{
+ width: 50px;
+}
+.rs_icon{
+width: 100px;
 }
