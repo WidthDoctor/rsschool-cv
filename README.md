@@ -1,1 +1,1 @@
-# rsschool-cv
+https://WidthDoctor.github.io/rsschool-cv/

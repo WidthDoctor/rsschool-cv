@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CV</title>
+  </head>
+  <body>
+    <div class="wrapper_general">
+      <main class="two_columns">
+        <header class="column_one">
+          <img id="pan" src="IMG/pan.png" alt="pan">
+          <img id="tape" src="IMG/tape.png" alt="tape">
+          <h1 id="name">Anton Popov</h1>
+          <nav class="contacts">
+            <h2 class="title">contact information</h2>
+            <ul>
+              <li class="li_contact">
+                <img
+                  class="icon_images"
+                  id="phone_icon"
+                  src="IMG/icons/phone.png"
+                  alt="phone"
+                >
+                <p>+48500560146</p>
+              </li>
+              <li class="li_contact">
+                <img
+                  class="icon_images"
+                  src="IMG/icons/telegraml.png"
+                  alt="telegram">
+                <p>@widthdoctor</p>
+              </li>
+              <li class="li_contact">
+                <img
+                  class="icon_images"
+                  src="IMG/icons/dircord.png"
+                  alt="discord">
+                <p>widthdoctor#7110</p>
+              </li>
+              <li class="li_contact">
+                <img class="icon_images" src="IMG/icons/post.png" alt="mail">
+                <p>elskel1812@gmail.com</p>
+              </li>
+            </ul>
+          </nav>
+        </header>
+        <div class="column_two">
+          <section id="about_me">
+            <h2 class="title_span">about myself</h2>
+            <h3 id="Title_middle">
+              i did a lot of things: i was a guitar teacher in a music school,
+              and when it began to get bored i tried my hand at door and
+              furniture restoration. i had incredible success and now my wife
+              and i moved to poland, then i did all the basic things for a
+              beginner tester of the "upskill me" course from epam. i didn't
+              start taking the internal exams because there was an english test
+              that required a b2. i finished that without passing the
+              exams(java,java-script, pithon,c++), but i passed the english test
+              at a2+ and then i got a job as an assistant arborist and now i
+              work as a carwash worker. before that i was already on the ts
+              school course in 2020 and reached the interview with the mentor,
+              but unfortunately my life changed drastically and there were big
+              changes and i was not able to continue my studies. i never lost
+              interest in this occupation and continued to study on my own when
+              i had time.<br>
+
+              I really hope nothing happens anytime soon and I can do what I
+              really enjoy!
+            </h3>
+          </section>
+          <div class="three_section_wrapper">
+            <div class="skills_info">
+              <span class="title">skills</span>
+              <ul class="skills">
+                <li class="li_skill">
+                  <p>html</p>
+                </li>
+                <li class="li_skill">
+                  <p>css</p>
+                </li>
+                <li class="li_skill">
+                  <p>figma</p>
+                </li>
+                <li class="li_skill">
+                  <p>vs code</p>
+                </li>
+                <li class="li_skill">
+                  <p>java script basics</p>
+                </li>
+                <li class="li_skill">
+                  <p>git basics</p>
+                </li>
+              </ul>
+            </div>
+            <div id="experience">
+              <span class="title_span">experience</span>
+              <ul class="skills">
+                <li class="li_skill">
+                  <p>
+                    2020 - rs schools course «javascript/front-end not
+                    completed.
+                  </p>
+                </li>
+                <li class="li_skill">
+                  <p>little project: <a href="https://restavracija.by/">restavracija.by </a></p>
+                  <p>
+                    at the request of a colleague it was necessary to make a
+                    site exactly on the basis of the website builder, where he
+                    is used to work. much of what was in the design did not
+                    work. (the design was made by my wife :* ) old site
+                    <a href="https://rsr.by/">rsr.by</a> (see at your own risk)
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div id="language">
+              <span class="title_span">languages</span>
+              <ul class="skills">
+                <li class="li_skill"><p>english A2+</p></li>
+                <li class="li_skill"><p>polish - basic</p></li>
+                <li class="li_skill"><p>belarusian</p></li>
+                <li class="li_skill"><p>russian</p></li>
+              </ul>
+            </div>
+          </div>
+          <div class="code_wrapper">
+            <span class="title_code">code example</span>
+            <span class="link_code"><a href="https://www.codewars.com/kata/57356c55867b9b7a60000bd7">task from codewars</a></span>
+            <pre>
+              <code class="code_example">
+  <span class="purple_word">function</span> <span class="variable_orange">basicOp</span> (<span class="variable_orange">operation</span>, <span class="variable_orange">value1</span>, <span class="variable_orange">value2</span>){
+    <span class="purple_word">if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"+"</span>){
+      <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>+<span class="variable_blue">value2</span>;
+      <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+    }<span class="purple_word">else if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"-"</span>){
+      <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>-<span class="variable_blue">value2</span>;
+      <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+  }<span class="purple_word">else if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"*"</span>){
+    <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>*<span class="variable_blue">value2</span>;
+    <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+  }<span class="purple_word">else if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"/"</span>){
+    <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>/<span class="variable_blue">value2</span>;
+    <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+  }
+            </code>
+            </pre>
+
+          </div>
+        </div>
+      </main>
+    </div>
+    <footer>
+      <a href="https://github.com/WidthDoctor"><img class="git_icon" src="IMG/gith.png" alt="github"></a>
+      <p>2022</p>
+      <a href="https://rs.school/js/"><img class="rs_icon" src="IMG/rs_school_js.svg" alt="rs_school"></a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
