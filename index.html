@@ -9,13 +9,13 @@
   </head>
   <body>
     <div class="wrapper_general">
-      <div class="two_columns">
-        <div class="column_one">
+      <main class="two_columns">
+        <header class="column_one">
           <img id="pan" src="IMG/pan.png" alt="pan">
           <img id="tape" src="IMG/tape.png" alt="tape">
-          <span id="name">Anton Popov</span>
-          <div class="contacts">
-            <span class="title">contact information</span>
+          <h1 id="name">Anton Popov</h1>
+          <nav class="contacts">
+            <h2 class="title">contact information</h2>
             <ul>
               <li class="li_contact">
                 <img
@@ -45,11 +45,11 @@
                 <p>elskel1812@gmail.com</p>
               </li>
             </ul>
-          </div>
-        </div>
+          </nav>
+        </header>
         <div class="column_two">
           <section id="about_me">
-            <h1 class="title">about muself</h1>
+            <h2 class="title_span">about myself</h2>
             <h3 id="Title_middle">
               i did a lot of things: i was a guitar teacher in a music school,
               and when it began to get bored i tried my hand at door and
@@ -74,7 +74,7 @@
           <div class="three_section_wrapper">
             <div class="skills_info">
               <span class="title">skills</span>
-              <ul id="skills">
+              <ul class="skills">
                 <li class="li_skill">
                   <p>html</p>
                 </li>
@@ -105,7 +105,7 @@
                   </p>
                 </li>
                 <li class="li_skill">
-                  <p><a href="https://restavracija.by/">restavracija.by </a></p>
+                  <p>little project: <a href="https://restavracija.by/">restavracija.by </a></p>
                   <p>
                     at the request of a colleague it was necessary to make a
                     site exactly on the basis of the website builder, where he
@@ -126,8 +126,37 @@
               </ul>
             </div>
           </div>
+          <div class="code_wrapper">
+            <span class="title_code">code example</span>
+            <span class="link_code"><a href="https://www.codewars.com/kata/57356c55867b9b7a60000bd7">task from codewars</a></span>
+            <pre>
+              <code class="code_example">
+  <span class="purple_word">function</span> <span class="variable_orange">basicOp</span> (<span class="variable_orange">operation</span>, <span class="variable_orange">value1</span>, <span class="variable_orange">value2</span>){
+    <span class="purple_word">if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"+"</span>){
+      <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>+<span class="variable_blue">value2</span>;
+      <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+    }<span class="purple_word">else if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"-"</span>){
+      <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>-<span class="variable_blue">value2</span>;
+      <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+  }<span class="purple_word">else if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"*"</span>){
+    <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>*<span class="variable_blue">value2</span>;
+    <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+  }<span class="purple_word">else if</span>(<span class="variable_blue">operation</span>===<span class="green_operand">"/"</span>){
+    <span class="purple_word">let</span> <span class="variable_orange">result</span> = <span class="variable_blue">value1</span>/<span class="variable_blue">value2</span>;
+    <span class="purple_word">return</span> <span class="variable_blue">result</span>;
+  }
+            </code>
+            </pre>
+
+          </div>
         </div>
-      </div>
+      </main>
     </div>
+    <footer>
+      <a href="https://github.com/WidthDoctor"><img class="git_icon" src="IMG/gith.png" alt="github"></a>
+      <p>2022</p>
+      <a href="https://rs.school/js/"><img class="rs_icon" src="IMG/rs_school_js.svg" alt="rs_school"></a>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
