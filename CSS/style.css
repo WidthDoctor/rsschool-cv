@@ -1,245 +1,31 @@
-
 body{
-    font-family: 'Courier New', Courier, monospace, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin:0;
-}
-h1{
-    margin-left: 30px;
     margin: 0;
 }
-.wrapper_general{
-    display: flex;
-    margin: 0 auto;
-    width: 1366px;
+header{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.582);
 }
-.two_columns{
-    width: 1366px;
-    display: flex;
-
-}
-.column_one{
-    /* display: flex; */
-
-    width: 25%;
-    background-color: #E2E3DE;
-}
-.column_two{
-    width: 75%;
-    background-color: #F6F3EC;
-}
-#pan{
-    position: relative;
-    z-index: 2;
-    width: 250px;
-    left: 50px;
-    top: 20px;
-}
-#tape{
-    position: relative;
-    display: flex;
-    z-index: 2;
-    width: 400px;
-    right: 80px;
-    bottom: 10px;
-}
-#name{
-    transform: rotate(-4deg);
-    position: relative;
-    display: flex;
-    bottom: 80px;
-    left: 10px;
-    z-index: 3;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 24px;
-    font-variant: small-caps;
-}
-.contacts{
-    display: flex;
-    flex-direction:column;
-    align-items: center;
-}
-.title{
-    text-align: center;
-    width: 280px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 24px;
-    font-variant: small-caps;
-    background-color: #D8C30E;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-}
-.li_contact{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    list-style: none;
-    width: 240px;
-}
-p{
-    margin-left: 10px;
-    margin:0;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    font-variant: small-caps;
-}
-.icon_images{
-    padding-left: 20px;
-    height: 30px;
-}
-#phone_icon{
-    height: 35px;
-    margin-left: 5px;
-}
-.skills_info{
-    width: 280px;
-    display: flex;
-    flex-direction:column;
-}
-
-.skills {
-    padding-left: 50px;
-
-}
-.li_skill{
-    width: 230px;
-    text-align: end;
-    color: #D8C30E;
-
-}
-.li_skill p{
-    font-size: 16px;
-    margin-top: 15px;
-    color:black;
-    width: 180px;
-}
-#Title_middle{
-    margin-left: 20px;
-    width: 800px;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 28px;
-    line-height: 24px;
-    font-variant: small-caps;
-}
-#experience{
-    display: flex;
-    flex-direction: column;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    font-variant: small-caps;
-    width: 280px;
-}
-.title_span{
-    text-align: center;
-    width: 280px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 24px;
-    font-variant: small-caps;
-    background-color: #D8C30E;
-
-}
-.three_section_wrapper{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-}
-#language{
-    display: flex;
-    flex-direction: column;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    font-variant: small-caps;
-    width: 280px;
-}
-footer{
-    width: 1366px;
-    margin: 0 auto;
-    background-color: #D8C30E;
+.menu{
+    width: 900px;
+    height: 100px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.git_icon{
- width: 50px;
-}
-.rs_icon{
-width: 100px;
-}
-.code_example{
-    width: 700px;
-    display: block;
-    font-size: 20px;
-    /* flex-direction: column; */
 
 }
-.title_code{
-    position: relative;
-    left: 30px;
-    width: 280px;
-    display: flex;
-    justify-content: center;
-    width: 280px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 24px;
-    font-variant: small-caps;
-    background-color: #D8C30E;
-}
-.link_code{
-    position: relative;
-    left: 30px;
-    width: 280px;
-    display: flex;
-    justify-content: center;
-    width: 280px;
-    height: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 24px;
-    font-variant: small-caps;
-    color: black;
-
-}
-pre{
-    position: relative;
-    left: 30px;
-    width: 500px;
-    margin: 0;
-}
-code{
+.menu span{
+    cursor: pointer;
     color: white;
-    background: #131414f1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    transition: all 0.5s;
 }
-.purple_word {
-    color: #B294BB;
+.menu span:hover{
+    color: rgba(255, 43, 43, 0.63);
+    transition: all 0.5s;
 }
-.variable_orange {
-    color: #D1933F;
-}
-.variable_blue {
-    color: #89B6C5;
-}
-.green_operand {
-    color: #AEBC67;
+nav{
+    display: flex;
+    justify-content: center;
 }
