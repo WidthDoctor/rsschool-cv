@@ -30,14 +30,15 @@ nav{
     transition: opacity 0.5s ease;
     opacity: 1;
 }
-.menu span{
+.menu li{
+    list-style: none;
     cursor: pointer;
     color: rgb(216, 213, 213);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     transition: all 0.5s;
 }
-.menu span:hover{
+.menu li:hover{
     color: rgba(255, 43, 43, 0.63);
     transition: all 0.5s;
 }
@@ -46,9 +47,9 @@ nav{
     width: 60%;
     max-width: 600px;
     border-radius: 80px;
-    background-color: rgba(240, 255, 255, 0.329);
+    background-color: rgb(150, 150, 150);
     position: fixed;
-    top: 5px;
+    top: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -70,13 +71,10 @@ nav{
 .hide{
     opacity: 0;
 }
-.none{
-    display: none;
-}
 
 main{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,4 +93,52 @@ main{
 .about span{
     font-size: 25px;
     color: azure;
+}
+.skills{
+    width: 100%;
+    max-width: 1960px;
+    height: 100%;
+}
+.skills_wpapper{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 30px;
+}
+.skills h2,span{
+    color: beige;
+    font-size: 25px;
+}
+.skill span{
+    text-align: center;
+    font-size: 50px;
+    color: aliceblue;
+}
+.skill img{
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+}
+.skill{
+    box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid rgba(255, 45, 45, 0.164);
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+}
+.skill:hover{
+    cursor: pointer;
+    transform: translateY(5px);
+}
+
+
+
+.none{
+    display: none;
 }
