@@ -1,22 +1,38 @@
-body{
+html, body {
+    height: 100%;
     margin: 0;
-}
+    padding: 0;
+  }
+  h1,h2{
+    margin: 0;
+  }
 header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 100%;
-    height: 100px;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.582);
 }
-.menu{
-    width: 900px;
+.little{
     height: 100px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu{
+    width: 1280px;
+    height: 100%;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    transition: opacity 0.5s ease;
+    opacity: 1;
 }
 .menu span{
     cursor: pointer;
-    color: white;
+    color: rgb(216, 213, 213);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     transition: all 0.5s;
@@ -25,7 +41,58 @@ header{
     color: rgba(255, 43, 43, 0.63);
     transition: all 0.5s;
 }
-nav{
+.burger_menu{
+    height: 60px;
+    width: 60%;
+    max-width: 600px;
+    border-radius: 80px;
+    background-color: rgba(240, 255, 255, 0.329);
+    position: fixed;
+    top: 5px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+.burger_menu {
+    cursor: pointer;
+}
+.burger_menu circle {
+    transition: all 0.5s;
+}
+.burger_menu:hover circle {
+    fill: rgba(255, 43, 43, 0.63);
+    transition: all 0.5s;
+    stroke: rgba(255, 45, 45, 0.164)
+}
+
+.hide{
+    opacity: 0;
+}
+.none{
+    display: none;
+}
+
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.582);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 700px;
+}
+.about h1{
+    color: blanchedalmond;
+    margin-bottom: 20px;
+}
+.about span{
+    font-size: 25px;
+    color: azure;
 }
