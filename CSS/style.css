@@ -106,7 +106,7 @@ main{
     row-gap: 20px;
     column-gap: 30px;
 }
-.skills h2,span{
+.skills h2{
     color: beige;
     font-size: 25px;
 }
@@ -136,9 +136,56 @@ main{
     cursor: pointer;
     transform: translateY(5px);
 }
-
-
-
+.edu_place{
+    display: flex;
+    align-items: center;
+    color: bisque;
+}
+.edu_place::before{
+  content: '';
+  display: inline-block;
+  height: 25px;
+  width: 35px;
+  background-image: url('../IMG/icons/hamster.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.code{
+    max-width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.code_example{
+    font-size: 14px;
+    background: #131414f1;
+    width: 100%;
+    margin: 0;
+}
+code{
+    color: white;
+}
+.purple_word {
+    color: #B294BB;
+}
+.variable_orange {
+    color: #D1933F;
+}
+.variable_blue {
+    color: #89B6C5;
+}
+.green_operand {
+    color: #AEBC67;
+}
+.hacker_hamster{
+    width: 20px;
+    height: 20px;
+}
+.WARNING{
+    font-size: 30px;
+    color: rgb(255, 89, 89);
+}
 .none{
     display: none;
 }
