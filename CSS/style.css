@@ -202,6 +202,16 @@ code{
     font-size: 45px;
     margin-top: 30px;
 }
+.contacts h2{
+    color: #AEBC67;
+    font-size: 45px;
+    margin-top: 30px;
+}
+.contacts li{
+    color: rgb(255, 163, 42);
+    font-size: 45px;
+    margin-top: 30px;
+}
 .none{
     display: none;
 }
