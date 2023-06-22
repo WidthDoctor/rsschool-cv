@@ -192,6 +192,16 @@ code{
     font-size: 30px;
     color: rgb(255, 89, 89);
 }
+.languages h2{
+    color: #AEBC67;
+    font-size: 45px;
+    margin-top: 30px;
+}
+.languages li{
+    color: rgb(255, 163, 42);
+    font-size: 45px;
+    margin-top: 30px;
+}
 .none{
     display: none;
 }

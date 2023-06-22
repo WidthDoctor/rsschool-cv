@@ -135,6 +135,7 @@ function allSectionHide(){
   sectionEducation.classList.add('none');
   sectionCode.classList.add('none');
   sectionExperience.classList.add('none');
+  sectionLanguages.classList.add('none');
 }
 
 const skillElements = document.querySelectorAll('.skill');
