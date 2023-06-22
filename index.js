@@ -1,6 +1,8 @@
 const menu = document.querySelector(".menu");
 const burger = document.querySelector('.burger_menu');
 const HEADER = document.querySelector('header');
+const main = document.querySelector('main');
+
 let hamster = false;
 
 menu.addEventListener('click', function() {
@@ -67,18 +69,22 @@ function showSection(section) {
 
 ABOUT.addEventListener('click', function() {
   showSection(sectionAbout);
+  main.classList.add('add100');
 });
 
 skillsElement.addEventListener('click', function() {
   showSection(sectionSkills);
+  main.classList.add('add89');
 });
 
 educationElement.addEventListener('click', function() {
   showSection(sectionEducation);
+  main.classList.add('add89');
 });
 
 experienceElement.addEventListener('click', function() {
   showSection(sectionExperience);
+  main.classList.add('add89');
 });
 
 codeElement.addEventListener('click', function() {
@@ -89,13 +95,16 @@ codeElement.addEventListener('click', function() {
       hamsterInvasion();
     }, 3000);
   }
+  main.classList.add('add89');
 });
 
 languagesElement.addEventListener('click', function() {
   showSection(sectionLanguages);
+  main.classList.add('add89');
 });
 contactsElement.addEventListener('click',function(){
   showSection(sectionContacts);
+  main.classList.add('add89');
 })
 document.addEventListener('DOMContentLoaded', function() {
   const repeatCounts = {
@@ -140,6 +149,7 @@ function allSectionHide(){
   sectionExperience.classList.add('none');
   sectionLanguages.classList.add('none');
   sectionContacts.classList.add('none');
+  main.classList.remove('add100');
 }
 
 const skillElements = document.querySelectorAll('.skill');

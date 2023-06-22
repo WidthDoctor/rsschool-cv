@@ -29,7 +29,7 @@ nav{
     align-items: center;
 }
 .menu{
-    width: 1280px;
+    width: 90%;
     height: 100%;
     display: flex;
     justify-content: space-around;
@@ -73,13 +73,23 @@ nav{
     transition: all 0.5s;
     stroke: rgba(255, 45, 45, 0.164)
 }
-
+.pan{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width:300px;
+    height: 300px;
+}
 .hide{
     opacity: 0;
 }
-
-main{
+.add100{
     height: 100%;
+}
+.add89{
+    height: 89%;
+}
+main{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
