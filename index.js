@@ -52,13 +52,14 @@ const educationElement = document.getElementById('education');
 const experienceElement = document.getElementById('experience');
 const codeElement = document.getElementById('code');
 const languagesElement = document.getElementById('languages');
-
+const contactsElement = document.getElementById('contact')
 const sectionAbout = document.querySelector('.about');
 const sectionSkills = document.querySelector('.skills');
 const sectionEducation = document.querySelector('.education');
 const sectionExperience = document.querySelector('.experience');
 const sectionCode = document.querySelector('.code');
 const sectionLanguages = document.querySelector('.languages');
+const sectionContacts = document.querySelector('.contacts');
 
 function showSection(section) {
   section.classList.remove('none');
@@ -93,7 +94,9 @@ codeElement.addEventListener('click', function() {
 languagesElement.addEventListener('click', function() {
   showSection(sectionLanguages);
 });
-
+contactsElement.addEventListener('click',function(){
+  showSection(sectionContacts);
+})
 document.addEventListener('DOMContentLoaded', function() {
   const repeatCounts = {
     'Vs code': 4,
@@ -136,6 +139,7 @@ function allSectionHide(){
   sectionCode.classList.add('none');
   sectionExperience.classList.add('none');
   sectionLanguages.classList.add('none');
+  sectionContacts.classList.add('none');
 }
 
 const skillElements = document.querySelectorAll('.skill');
