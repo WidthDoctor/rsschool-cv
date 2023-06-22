@@ -6,6 +6,12 @@ html, body {
   h1,h2{
     margin: 0;
   }
+  a{
+    text-decoration: none;
+    color: rgb(255, 163, 42);
+    font-size: 25px;
+    margin-top: 10px;
+  }
 header{
     display: flex;
     flex-direction: column;

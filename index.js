@@ -134,6 +134,7 @@ function allSectionHide(){
   sectionSkills.classList.add('none');
   sectionEducation.classList.add('none');
   sectionCode.classList.add('none');
+  sectionExperience.classList.add('none');
 }
 
 const skillElements = document.querySelectorAll('.skill');
@@ -162,8 +163,6 @@ function hamsterInvasion() {
 
       // Заменяем текущий элемент <span> на <img>
       spanElements[i].parentNode.replaceChild(imgElement, spanElements[i]);
-
-
     }
   }
   let warningSpan = document.createElement("span");
