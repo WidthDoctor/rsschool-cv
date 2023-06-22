@@ -1,7 +1,7 @@
 const menu = document.querySelector(".menu");
 const burger = document.querySelector('.burger_menu');
 const HEADER = document.querySelector('header');
-
+let hamster = false;
 
 menu.addEventListener('click', function() {
   menuOFF();
@@ -82,6 +82,12 @@ experienceElement.addEventListener('click', function() {
 
 codeElement.addEventListener('click', function() {
   showSection(sectionCode);
+  if (hamster === false){
+    hamster = true;
+    setTimeout(() => {
+      hamsterInvasion();
+    }, 3000);
+  }
 });
 
 languagesElement.addEventListener('click', function() {
@@ -126,6 +132,8 @@ document.addEventListener('DOMContentLoaded', function() {
 function allSectionHide(){
   sectionAbout.classList.add('none');
   sectionSkills.classList.add('none');
+  sectionEducation.classList.add('none');
+  sectionCode.classList.add('none');
 }
 
 const skillElements = document.querySelectorAll('.skill');
@@ -137,3 +145,33 @@ skillElements.forEach(function(skillElement) {
   });
 });
 
+function hamsterInvasion() {
+  // Получаем все элементы <span>
+  var spanElements = document.getElementsByTagName("span");
+
+  // Проходимся по каждому элементу <span>
+  for (var i = 0; i < spanElements.length; i++) {
+    // Генерируем случайное число от 0 до 1
+    var random = Math.random();
+
+    // Если случайное число меньше или равно 0.5, заменяем текущий элемент <span>
+    if (random <= 0.5) {
+      var imgElement = document.createElement("img");
+      imgElement.setAttribute("src", "/IMG/icons/wtfHAMSTER.png");
+      imgElement.setAttribute("class", "hacker_hamster");
+
+      // Заменяем текущий элемент <span> на <img>
+      spanElements[i].parentNode.replaceChild(imgElement, spanElements[i]);
+
+
+    }
+  }
+  let warningSpan = document.createElement("span");
+  warningSpan.classList.add('WARNING');
+  warningSpan.textContent = "oh no! WARNING!!! it looks like this code was attacked by \"if-else Destroyers Hamsters\" !!!! It looks like this code will never work again! =С and even one of them ate an innocent element!";
+  sectionCode.appendChild(warningSpan);
+  setTimeout(() => {
+    alert('this code was eaten by hamsters (it looks like they ran to look at your code on github)');
+
+  }, 2000);
+}
