@@ -264,7 +264,10 @@ footer span, .github_container span {
     font-size: 20px;
 }
 footer a{
-    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
 }
 .none{
     display: none;
