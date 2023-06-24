@@ -95,7 +95,7 @@ codeElement.addEventListener('click', function() {
       hamsterInvasion();
     }, 3000);
   }
- 
+
 });
 
 languagesElement.addEventListener('click', function() {
@@ -173,7 +173,7 @@ function hamsterInvasion() {
     // Если случайное число меньше или равно 0.5, заменяем текущий элемент <span>
     if (random <= 0.5) {
       var imgElement = document.createElement("img");
-      imgElement.setAttribute("src", "/IMG/icons/wtfHAMSTER.png");
+      imgElement.setAttribute("src", "./IMG/icons/wtfHAMSTER.png");
       imgElement.setAttribute("class", "hacker_hamster");
 
       // Заменяем текущий элемент <span> на <img>
